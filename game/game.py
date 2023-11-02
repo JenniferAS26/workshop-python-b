@@ -23,7 +23,7 @@ tijeras (X)
       print('¡Empate! tuvimos la misma jugada')
       return False
     elif option == 'piedra' and machine == 'tijera' or option == 'papel' and machine == 'piedra' or option == 'tijera' and machine == 'papel':
-      print(f'Ganaste esta ronda!, con {option}, y yo jugue con {machine}')
+      print(f'Ganaste esta ronda con {option}, y yo jugue con {machine}')
       return True
 
     else:
